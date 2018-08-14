@@ -52,7 +52,12 @@ form{
     border-radius: 3px;
     width: auto;
     height: auto;
+    
+}
+
+form:hover{
     box-shadow: 2px 2px 2px 1px gray;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 tr{
@@ -64,6 +69,10 @@ tr{
 input{
     width: 400px;
     height: 40px;
+}
+
+input:hover{
+    background-color: red;
 }
 
 button{
