@@ -5,13 +5,13 @@ const rename = require('gulp-rename');
 const sourcemaps = require('gulp-sourcemaps');
 const del = require('del');
 const browserSync = require('browser-sync').create();
-const gulpWebpack = require('webpack-stream');
-const webpack = require('webpack');
-const webpackConfig = require('./webpack.config.js');
+// const gulpWebpack = require('webpack-stream');
+// const webpack = require('webpack');
+// const webpackConfig = require('./webpack.config.js');
 const autoprefixer = require('gulp-autoprefixer');
-const svgSprite = require('gulp-svg-sprite');
-const svgmin = require('gulp-svgmin');
-const cheerio = require('gulp-cheerio');
+// const svgSprite = require('gulp-svg-sprite');
+// const svgmin = require('gulp-svgmin');
+// const cheerio = require('gulp-cheerio');
 const replace = require('gulp-replace');
 
 
