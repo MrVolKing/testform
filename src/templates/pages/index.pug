@@ -1,0 +1,42 @@
+extends ../template
+
+block varibles
+    - var title = "Service-directory"
+
+block content
+
+    section
+
+        div
+            
+            header
+                img(src="", alt="")               
+                h1 swediva
+                span swedish airports
+        
+            form
+                table
+                    tbody
+                        tr
+                            td Username
+                            td
+                                input(name='name', type='text', required)
+                        tr
+                            td Password
+                            td
+                                input(name='password', type='password', required)
+                        tr        
+                            td                
+                                button(type='submit', onclick='validate(this.form)', value='Проверить') отправить
+                                a(href="#") Forgot password ?
+
+            footer
+                p Powered by 
+                a(href="#") Cygate
+
+
+
+
+
+
+                    
